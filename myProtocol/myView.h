@@ -19,11 +19,12 @@
 @end
 
 @interface myView : UIView {
-    id <animationNotification> delegate;
+    //id <animationNotification> delegate;
     UIView *boxView;
 }
 
 @property (nonatomic, assign) id delegate;
+@property(nonatomic)int zmienna;
 
 - (void)animate;
 
