@@ -41,8 +41,9 @@
 }
 
 - (void)animationHasFinishedWithView:(UIView *)animatedView {
-    NSLog(@"The animation has finished");
-    [animatedView setBackgroundColor:[UIColor blackColor]];
+//    NSLog(@"The animation has finished");
+//    [animatedView setBackgroundColor:[UIColor blackColor]];
+    [view animate];
 }
 
 @end

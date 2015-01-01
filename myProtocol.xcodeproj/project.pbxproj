@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24FD11181A55E4E400A69B78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FD11171A55E4E400A69B78 /* Default-568h@2x.png */; };
 		26A852511384A43C00136CEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A852501384A43C00136CEB /* UIKit.framework */; };
 		26A852531384A43C00136CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A852521384A43C00136CEB /* Foundation.framework */; };
 		26A852551384A43C00136CEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A852541384A43C00136CEB /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24FD11171A55E4E400A69B78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		26A8524C1384A43C00136CEB /* myProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A852501384A43C00136CEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26A852521384A43C00136CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +52,7 @@
 		26A852411384A43C00136CEB = {
 			isa = PBXGroup;
 			children = (
+				24FD11171A55E4E400A69B78 /* Default-568h@2x.png */,
 				26A852561384A43C00136CEB /* myProtocol */,
 				26A8524F1384A43C00136CEB /* Frameworks */,
 				26A8524D1384A43C00136CEB /* Products */,
@@ -124,6 +127,7 @@
 		26A852431384A43C00136CEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 26A852461384A43C00136CEB /* Build configuration list for PBXProject "myProtocol" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -149,6 +153,7 @@
 			files = (
 				26A8525B1384A43C00136CEB /* InfoPlist.strings in Resources */,
 				26A852641384A43C00136CEB /* MainWindow.xib in Resources */,
+				24FD11181A55E4E400A69B78 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +195,6 @@
 		26A852651384A43C00136CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -200,6 +204,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -207,7 +212,6 @@
 		26A852661384A43C00136CEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
